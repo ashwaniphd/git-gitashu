@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<HTML>
+    <HEAD>
+        <TITLE>LAYOUT 3</TITLE>
+        <LINK rel="stylesheet" href="assets/css/main.css" />
+    </HEAD>
+    <BODY>
+        <!--Header Section Start -->
+        <HEADER id="header">
+            <DIV class="inner">
+                <A href="index.html" class="logo">Ducat Education</A>
+                <NAV id="nav">
+					<A href="home.html">Home</A>
+					<A href="about.html">About</A>
+                    <A href="contact.html">Contact</A>
+                    <A href="gallary.html">Gallary</A>
+					<A href="feedback.html">Feedback</A>
+				</NAV>
+            </DIV>
+        </HEADER>
+        <A href="#menu" class="navPanelToggle"><SPAN class="fa fa-bars"></SPAN></A>
+        <!--Header Section End -->
+     
+        <!--Content Section Start -->
+        <SECTION id="main">
+            <DIV class="inner">
+                <H3>Feedback Form</H3>
+                <FORM method="post" action="#">
+                    <DIV class="row uniform 50%">
+                        <DIV class="6u 12u$(xsmall)">
+                            <INPUT type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                        </DIV>
+                        <DIV class="6u$ 12u$(xsmall)">
+                            <INPUT type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                        </DIV>
+                        <DIV class="12u$">
+                            <DIV class="select-wrapper">
+                                <SELECT name="demo-category" id="demo-category">
+                                    <OPTION value="">- Category -</OPTION>
+                                    <OPTION value="1">Manufacturing</OPTION>
+                                    <OPTION value="1">Shipping</OPTION>
+                                    <OPTION value="1">Administration</OPTION>
+                                    <OPTION value="1">Human Resources</OPTION>
+                                </SELECT>
+                            </DIV>
+                        </DIV>
+                        <DIV class="4u 12u$(xsmall)">
+                            <INPUT type="radio" id="priority-low" name="priority" checked>
+                            <LABEL for="priority-low">Low Priority</LABEL>
+                        </DIV>
+                        <DIV class="4u 12u$(xsmall)">
+                            <INPUT type="radio" id="priority-normal" name="priority">
+                            <LABEL for="priority-normal">Normal Priority</LABEL>
+                        </DIV>
+                        <DIV class="4u$ 12u$(xsmall)">
+                            <INPUT type="radio" id="priority-high" name="priority">
+                            <LABEL for="priority-high">High Priority</LABEL>
+                        </DIV>
+                        <DIV class="6u 12u$(small)">
+                            <INPUT type="checkbox" id="copy" name="copy">
+                            <LABEL for="copy">Email me a copy of this message</LABEL>
+                        </DIV>
+                        <DIV class="6u$ 12u$(small)">
+                            <INPUT type="checkbox" id="human" name="human" checked>
+                            <LABEL for="human">I am a human and not a robot</LABEL>
+                        </DIV>
+                        <DIV class="12u$">
+                            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+                        </DIV>
+                        <DIV class="12u$">
+                            <UL class="actions">
+                                <LI>
+                                    <INPUT type="submit" value="Send Message" class="special" />
+                                </LI>
+                                <LI>
+                                    <INPUT type="reset" value="Reset" />
+                                </LI>
+                            </UL>
+                        </DIV>
+                    </DIV>
+                </form>
+            </DIV>
+        </SECTION>
+        <!--Content Section End -->
+
+        <!--Footer Section Start -->
+        <SECTION id="footer">
+			<DIV class="inner">
+				<DIV class="copyright">
+					2018 &copy; All Rights Reserved <A href="http://www.ducatindia.com/">Ducat Education</A>
+                </DIV>
+            </DIV>
+        </SECTION>
+        <!--Footer Section End -->
+
+        <!--Scripts Section Start -->
+        <script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <!--Scripts Section End -->
+    </BODY>
+</HTML>
